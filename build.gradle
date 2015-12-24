@@ -1,0 +1,15 @@
+group 'net.devcouch'
+version '1.0.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'junit:junit:4.11'
+    compile 'org.assertj:assertj-core:3.2.0'
+}
